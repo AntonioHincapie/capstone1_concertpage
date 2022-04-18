@@ -1,0 +1,2 @@
+# capstone1_concertpage
+In this capstone project I'm going to build is based on an online website for a conference. Microvers provide some design guidelines for me to create the website, but I must personalize the content, i.e., instead of a conference I'm going to build a website for a concert or for a web development course. It's very important the you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.
