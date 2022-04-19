@@ -5,6 +5,15 @@
   font-family: 'Lato', sans-serif;
 }
 
+.title-separator {
+  display: block;
+  width: 50px;
+  height: 5px;
+  border-top: 2px solid #ec5242;
+  margin-top: -45px;
+  margin-bottom: 55px;
+}
+
 /* Headline CSS */
 
 #headline {
@@ -48,6 +57,9 @@
   margin-top: 30px;
   font-size: 14px;
   font-weight: normal;
+  background-color: #f5f5f5;
+  border: 2px solid #fff;
+  padding: 15px;
 }
 
 .festival-dates {
@@ -74,7 +86,6 @@
   text-align: center;
   font-size: 25px;
   margin: 30px;
-  text-decoration: solid underline #ec5242;
   color: #d3d3d3;
 }
 
@@ -132,14 +143,14 @@
 #presentations {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  align-items: center;
+  gap: 20px;
 }
 
 .presentations-title {
   text-align: center;
   font-size: 25px;
   margin: 30px;
-  text-decoration: solid underline #ec5242;
   color: #272a31;
 }
 
