@@ -199,15 +199,15 @@
   }
 
   .hello {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .festival-name {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   #headline-text p {
-    width: 400px;
+    width: 60%;
     padding: 2%;
     font-size: 18px;
     font-weight: bolder;
