@@ -17,7 +17,45 @@
   <body>
     <header id="headline">
       <nav id="menubar">
-        <a href="#"><img id="menu" src="images/menu.png" alt="MENU" /></a>
+        <div class="desktop-menu">
+          <div class="top-bar">
+            <ul class="menu">
+              <li>
+                <a href="https://www.facebook.com/gritafestival"
+                  ><img src="images/facebook-logo.png" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/grita_festival"
+                  ><img src="images/twitter-logo.png" alt="Twitter" />
+                </a>
+              </li>
+              <li><a class="menu-text" href="#">English</a></li>
+              <li><a class="menu-text" href="#">My Page</a></li>
+              <li><a class="menu-text" href="#">Logout</a></li>
+            </ul>
+          </div>
+          <div class="desktop-navbar">
+            <a href="index.html">
+              <img
+                class="logo-navbar"
+                src="images/logo-grita.png"
+                alt="Grita"
+              />
+            </a>
+            <ul class="links">
+              <li><a class="link-about" href="about.html">About</a></li>
+              <li><a class="link-text" href="#">Program</a></li>
+              <li><a class="link-text" href="#">Join</a></li>
+              <li><a class="link-text" href="#">Sponsor</a></li>
+              <li><a class="link-text" href="#">news</a></li>
+              <li><a class="link-campaign" href="#">CC Campaign</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <a href="#"><img id="menu" src="images/menu.png" alt="MENU" /></a>
+        </div>
       </nav>
       <div id="headline-text">
         <h2 class="hello">¡Hola Rockeros!</h2>
@@ -33,153 +71,227 @@
     <section id="main-program">
       <h2 class="program-title">Programación</h2>
       <div class="title-separator"></div>
-      <div class="program">
-        <img class="program-img" src="images/program_icon_1.png" alt="Icon1" />
-        <h5 class="program-item">Presentación</h5>
-        <p class="item-description">
-          Apertura del evento, presentacion de las bandas principales e
-          indicaciones generales de seguridad y convivencia
-        </p>
-      </div>
-      <div class="program">
-        <img class="program-img" src="images/program_icon_2.png" alt="Icon2" />
-        <h5 class="program-item">Apertura conciertos</h5>
-        <p class="item-description">
-          Concierto de las bandas nacionales ganadoras del concurso abierto en
-          redes sociales.
-        </p>
-      </div>
-      <div class="program">
-        <img class="program-img" src="images/program_icon_3.png" alt="Icon3" />
-        <h5 class="program-item">Concierto principal</h5>
-        <p class="item-description">
-          Presentación de las agrupaciones internacionales: Gondwana (Chile),
-          Madball (EE.UU.), Orgy (EE.UU.) y otras.
-        </p>
-      </div>
-      <div class="program">
-        <img class="program-img" src="images/program_icon_4.png" alt="Icon4" />
-        <h5 class="program-item">Cierre de escenario</h5>
-        <p class="item-description">
-          Finalización de los conciertos en el escenario principal y cierre de
-          tarima con la presentación de Dread Mar I.
-        </p>
-      </div>
-      <div class="program">
-        <img class="program-img" src="images/program_icon_5.png" alt="Icon5" />
-        <h5 class="program-item">Clausura evento</h5>
-        <p class="item-description">
-          Entrega de reconocimientos por parte del Alcalde de la ciudad a las
-          agrupaciones participantes en el evento.
-        </p>
+      <div class="program-content">
+        <div class="program">
+          <img
+            class="program-img"
+            src="images/program_icon_1.png"
+            alt="Icon1"
+          />
+          <h5 class="program-item">Presentación</h5>
+          <p class="item-description">
+            Apertura del evento, presentacion de las bandas principales e
+            indicaciones generales de seguridad y convivencia
+          </p>
+        </div>
+        <div class="program">
+          <img
+            class="program-img"
+            src="images/program_icon_2.png"
+            alt="Icon2"
+          />
+          <h5 class="program-item">Apertura conciertos</h5>
+          <p class="item-description">
+            Concierto de las bandas nacionales ganadoras del concurso abierto en
+            redes sociales.
+          </p>
+        </div>
+        <div class="program">
+          <img
+            class="program-img"
+            src="images/program_icon_3.png"
+            alt="Icon3"
+          />
+          <h5 class="program-item">Concierto principal</h5>
+          <p class="item-description">
+            Presentación de las agrupaciones internacionales: Gondwana (Chile),
+            Madball (EE.UU.), Orgy (EE.UU.) y otras.
+          </p>
+        </div>
+        <div class="program">
+          <img
+            class="program-img"
+            src="images/program_icon_4.png"
+            alt="Icon4"
+          />
+          <h5 class="program-item">Cierre de escenario</h5>
+          <p class="item-description">
+            Finalización de los conciertos en el escenario principal y cierre de
+            tarima con la presentación de Dread Mar I.
+          </p>
+        </div>
+        <div class="program">
+          <img
+            class="program-img"
+            src="images/program_icon_5.png"
+            alt="Icon5"
+          />
+          <h5 class="program-item">Clausura evento</h5>
+          <p class="item-description">
+            Entrega de reconocimientos por parte del Alcalde de la ciudad a las
+            agrupaciones participantes en el evento.
+          </p>
+        </div>
       </div>
       <button type="button" class="registration">
         Comprar boletos Manizales Grita Rock 2022
+      </button>
+      <button type="button" class="see-more">
+        VER LA PROGRAMACIÓN COMPLETA DEL EVENTO
       </button>
     </section>
     <section id="presentations">
       <h2 class="presentations-title">Agrupaciones Musicales</h2>
       <div class="title-separator"></div>
-      <div class="presenter">
-        <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
-        <div class="presenter-info">
-          <h3>Gondwana</h3>
-          <h4>
-            Gondwana es un grupo musical de reggae chileno, creado por I-Locks
-            Labbé en 1987 en la Población La Pincoya de la comuna de Huechuraba,
-            Santiago.
-          </h4>
-          <div class="separator"></div>
-          <h5>
-            Ultima discografía: 2012-Revolución, 2014-Reggae and Roll 2017-Carpe
-            Diem, 2020-Em Português, 2021-En Vivo Teatro Caupolicán, etc
-          </h5>
+      <div class="presentations-wraper">
+        <div class="presenter">
+          <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
+          <div class="presenter-info">
+            <h3>Gondwana</h3>
+            <h4>
+              Gondwana es un grupo musical de reggae chileno, creado por I-Locks
+              Labbé en 1987 en la Población La Pincoya de la comuna de
+              Huechuraba, Santiago.
+            </h4>
+            <div class="separator"></div>
+            <h5>
+              Ultima discografía: 2012-Revolución, 2014-Reggae and Roll
+              2017-Carpe Diem, 2020-Em Português, 2021-En Vivo Teatro
+              Caupolicán, etc
+            </h5>
+          </div>
         </div>
-      </div>
-      <div class="presenter">
-        <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
-        <div class="presenter-info">
-          <h3>Gondwana</h3>
-          <h4>
-            Gondwana es un grupo musical de reggae chileno, creado por I-Locks
-            Labbé en 1987 en la Población La Pincoya de la comuna de Huechuraba,
-            Santiago.
-          </h4>
-          <div class="separator"></div>
-          <h5>
-            Ultima discografía: 2012-Revolución, 2014-Reggae and Roll 2017-Carpe
-            Diem, 2020-Em Português, 2021-En Vivo Teatro Caupolicán, etc
-          </h5>
+        <div class="presenter">
+          <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
+          <div class="presenter-info">
+            <h3>Gondwana</h3>
+            <h4>
+              Gondwana es un grupo musical de reggae chileno, creado por I-Locks
+              Labbé en 1987 en la Población La Pincoya de la comuna de
+              Huechuraba, Santiago.
+            </h4>
+            <div class="separator"></div>
+            <h5>
+              Ultima discografía: 2012-Revolución, 2014-Reggae and Roll
+              2017-Carpe Diem, 2020-Em Português, 2021-En Vivo Teatro
+              Caupolicán, etc
+            </h5>
+          </div>
         </div>
-      </div>
-      <div class="presenter">
-        <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
-        <div class="presenter-info">
-          <h3>Gondwana</h3>
-          <h4>
-            Gondwana es un grupo musical de reggae chileno, creado por I-Locks
-            Labbé en 1987 en la Población La Pincoya de la comuna de Huechuraba,
-            Santiago.
-          </h4>
-          <div class="separator"></div>
-          <h5>
-            Ultima discografía: 2012-Revolución, 2014-Reggae and Roll 2017-Carpe
-            Diem, 2020-Em Português, 2021-En Vivo Teatro Caupolicán, etc
-          </h5>
+        <div class="presenter">
+          <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
+          <div class="presenter-info">
+            <h3>Gondwana</h3>
+            <h4>
+              Gondwana es un grupo musical de reggae chileno, creado por I-Locks
+              Labbé en 1987 en la Población La Pincoya de la comuna de
+              Huechuraba, Santiago.
+            </h4>
+            <div class="separator"></div>
+            <h5>
+              Ultima discografía: 2012-Revolución, 2014-Reggae and Roll
+              2017-Carpe Diem, 2020-Em Português, 2021-En Vivo Teatro
+              Caupolicán, etc
+            </h5>
+          </div>
         </div>
-      </div>
-      <div class="presenter">
-        <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
-        <div class="presenter-info">
-          <h3>Gondwana</h3>
-          <h4>
-            Gondwana es un grupo musical de reggae chileno, creado por I-Locks
-            Labbé en 1987 en la Población La Pincoya de la comuna de Huechuraba,
-            Santiago.
-          </h4>
-          <div class="separator"></div>
-          <h5>
-            Ultima discografía: 2012-Revolución, 2014-Reggae and Roll 2017-Carpe
-            Diem, 2020-Em Português, 2021-En Vivo Teatro Caupolicán, etc
-          </h5>
+        <div class="presenter">
+          <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
+          <div class="presenter-info">
+            <h3>Gondwana</h3>
+            <h4>
+              Gondwana es un grupo musical de reggae chileno, creado por I-Locks
+              Labbé en 1987 en la Población La Pincoya de la comuna de
+              Huechuraba, Santiago.
+            </h4>
+            <div class="separator"></div>
+            <h5>
+              Ultima discografía: 2012-Revolución, 2014-Reggae and Roll
+              2017-Carpe Diem, 2020-Em Português, 2021-En Vivo Teatro
+              Caupolicán, etc
+            </h5>
+          </div>
         </div>
-      </div>
-      <div class="presenter">
-        <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
-        <div class="presenter-info">
-          <h3>Gondwana</h3>
-          <h4>
-            Gondwana es un grupo musical de reggae chileno, creado por I-Locks
-            Labbé en 1987 en la Población La Pincoya de la comuna de Huechuraba,
-            Santiago.
-          </h4>
-          <div class="separator"></div>
-          <h5>
-            Ultima discografía: 2012-Revolución, 2014-Reggae and Roll 2017-Carpe
-            Diem, 2020-Em Português, 2021-En Vivo Teatro Caupolicán, etc
-          </h5>
+        <div class="presenter">
+          <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
+          <div class="presenter-info">
+            <h3>Gondwana</h3>
+            <h4>
+              Gondwana es un grupo musical de reggae chileno, creado por I-Locks
+              Labbé en 1987 en la Población La Pincoya de la comuna de
+              Huechuraba, Santiago.
+            </h4>
+            <div class="separator"></div>
+            <h5>
+              Ultima discografía: 2012-Revolución, 2014-Reggae and Roll
+              2017-Carpe Diem, 2020-Em Português, 2021-En Vivo Teatro
+              Caupolicán, etc
+            </h5>
+          </div>
         </div>
-      </div>
-      <div class="presenter">
-        <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
-        <div class="presenter-info">
-          <h3>Gondwana</h3>
-          <h4>
-            Gondwana es un grupo musical de reggae chileno, creado por I-Locks
-            Labbé en 1987 en la Población La Pincoya de la comuna de Huechuraba,
-            Santiago.
-          </h4>
-          <div class="separator"></div>
-          <h5>
-            Ultima discografía: 2012-Revolución, 2014-Reggae and Roll 2017-Carpe
-            Diem, 2020-Em Português, 2021-En Vivo Teatro Caupolicán, etc
-          </h5>
+        <div class="presenter">
+          <img class="presenter-img" src="images/speaker_01.png" alt="Band1" />
+          <div class="presenter-info">
+            <h3>Gondwana</h3>
+            <h4>
+              Gondwana es un grupo musical de reggae chileno, creado por I-Locks
+              Labbé en 1987 en la Población La Pincoya de la comuna de
+              Huechuraba, Santiago.
+            </h4>
+            <div class="separator"></div>
+            <h5>
+              Ultima discografía: 2012-Revolución, 2014-Reggae and Roll
+              2017-Carpe Diem, 2020-Em Português, 2021-En Vivo Teatro
+              Caupolicán, etc
+            </h5>
+          </div>
         </div>
       </div>
     </section>
     <footer>
-      <img class="logo-footer" src="images/logo-grita.png" alt="Grita" />
-      <h2>Manizales Grita Rock 2022</h2>
+      <div class="mobile-footer">
+        <img class="logo-footer" src="images/logo-grita.png" alt="Grita" />
+        <div>
+          <h2>Manizales Grita Rock 2022</h2>
+          <p class="footer-text">
+            Dummy website only for educational purposes, based on the
+            <a
+              href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"
+              >template
+            </a>
+            by Cindy Shin
+          </p>
+        </div>
+      </div>
+      <div class="desktop-footer">
+        <div class="partners">
+          <div class="partners-position">
+            <h2 class="partners-title">Patrocinadores</h2>
+            <div class="title-separator"></div>
+          </div>
+          <ul class="partners-item">
+            <li>mozilla</li>
+            <li>Google</li>
+            <li>NAVER</li>
+            <li>daunkakao</li>
+            <li>airbnb</li>
+          </ul>
+        </div>
+        <div class="footer">
+          <img class="logo-footer" src="images/logo-grita.png" alt="Grita" />
+          <div>
+            <h2>Manizales Grita Rock 2022</h2>
+            <p class="footer-text">
+              Dummy website only for educational purposes, based on the
+              <a
+                href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"
+                >template
+              </a>
+              by Cindy Shin
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
     <script type="module" src="scripts.js"></script>
     <script type="module" src="data.js"></script>
