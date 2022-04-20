@@ -351,13 +351,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px;
   gap: 20px;
 }
 
 .presentations-title {
   text-align: center;
   font-size: 25px;
-  margin: 30px;
+  margin-bottom: 30px;
   color: #272a31;
 }
 
@@ -374,6 +375,11 @@
   gap: 20px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.presenter-img {
+  height: 197px;
+  width: 198px;
 }
 
 .presenter-info {
