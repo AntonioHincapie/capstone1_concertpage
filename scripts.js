@@ -38,7 +38,7 @@ const printPresentations = () => {
     </div>`;
   }
   return str;
-}
+};
 
 presenters.innerHTML = `
 <h2 class="presentations-title">Agrupaciones Musicales</h2>
