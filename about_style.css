@@ -198,7 +198,7 @@
     text-decoration: none;
     color: #272a31;
   }
-  
+
   .social-media a:hover {
     text-decoration: underline;
     color: #272a31;
@@ -371,7 +371,7 @@ footer {
   color: #272a31;
 }
 
-.footer-text p {
+.p-text {
   font-size: 14px;
   font-weight: bold;
   font-style: italic;
