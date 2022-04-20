@@ -17,7 +17,45 @@
   <body>
     <header id="headline">
       <nav id="menubar">
-        <a href="#"><img id="menu" src="images/menu.png" alt="MENU" /></a>
+        <div class="desktop-menu">
+          <div class="top-bar">
+            <ul class="menu">
+              <li>
+                <a href="https://www.facebook.com/gritafestival"
+                  ><img src="images/facebook-logo.png" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/grita_festival"
+                  ><img src="images/twitter-logo.png" alt="Twitter" />
+                </a>
+              </li>
+              <li><a class="menu-text" href="#">English</a></li>
+              <li><a class="menu-text" href="#">My Page</a></li>
+              <li><a class="menu-text" href="#">Logout</a></li>
+            </ul>
+          </div>
+          <div class="desktop-navbar">
+            <a href="index.html">
+              <img
+                class="logo-navbar"
+                src="images/logo-grita.png"
+                alt="Grita"
+              />
+            </a>
+            <ul class="links">
+              <li><a class="link-about" href="about.html">About</a></li>
+              <li><a class="link-text" href="#">Program</a></li>
+              <li><a class="link-text" href="#">Join</a></li>
+              <li><a class="link-text" href="#">Sponsor</a></li>
+              <li><a class="link-text" href="#">news</a></li>
+              <li><a class="link-campaign" href="#">CC Campaign</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <a href="#"><img id="menu" src="images/menu.png" alt="MENU" /></a>
+        </div>
       </nav>
       <div id="headline-text">
         <h2 class="hello">¡Hola Rockeros!</h2>
@@ -33,11 +71,17 @@
         <div class="festival-contact">
           <h3>Conoce nuestro trabajo en nuestras redes sociales:</h3>
           <div class="social-media">
-            <a href="https://www.facebook.com/gritafestival">
-              <img src="about_images/facebook-logo.png" alt="Facebook" />
+            <a
+              class="socialmedia-item"
+              href="https://www.facebook.com/gritafestival"
+            >
+              Twitter: @grita_festival
             </a>
-            <a href="https://twitter.com/grita_festival">
-              <img src="about_images/twitter-logo.png" alt="Twitter" />
+            <a
+              class="socialmedia-item"
+              href="https://twitter.com/grita_festival"
+            >
+              Facebook: @gritafestival
             </a>
           </div>
         </div>
@@ -47,6 +91,7 @@
       <h2 class="logo-title">
         Festival Grita Manizales Ultima Edición: 13 y 14 de Octubre del 2019
       </h2>
+      <div class="title-separator"></div>
       <img
         class="logo-actual"
         src="about_images/manizales-grita-logo-actual-white.png"
@@ -54,19 +99,28 @@
       />
     </section>
     <section id="lastest-editions">
-      <h2 class="le-title">Ediciones anteriores destacadas:</h2>
-      <img
-        class="le-logo"
-        src="about_images/manizales-grita-logo-antiguo.png"
-        alt="MGR-2016"
-      />
-      <h3 class="edition-title">Manizales Grita Rock 2016</h3>
-      <img
-        class="le-logo"
-        src="about_images/manizales_grita_logo_light.png"
-        alt="MGR-2019"
-      />
-      <h3 class="edition-title">Manizales Grita Rock 2019</h3>
+      <div class="letitle-wraper">
+        <h2 class="le-title">Ediciones anteriores destacadas:</h2>
+        <div class="title-separator"></div>
+      </div>
+      <div class="editions">
+        <div class="edition">
+          <img
+            class="le-logo"
+            src="about_images/manizales-grita-logo-antiguo.png"
+            alt="MGR-2016"
+          />
+          <h3 class="edition-title">Manizales Grita Rock 2016</h3>
+        </div>
+        <div class="edition">
+          <img
+            class="le-logo"
+            src="about_images/manizales_grita_logo_light.png"
+            alt="MGR-2019"
+          />
+          <h3 class="edition-title">Manizales Grita Rock 2019</h3>
+        </div>
+      </div>
     </section>
     <section id="partners">
       <div class="partners-position">
@@ -83,7 +137,18 @@
     </section>
     <footer>
       <img class="logo-footer" src="about_images/logo-grita.png" alt="Grita" />
-      <h2>Manizales Grita Rock 2022</h2>
+      <div class="footer-text">
+        <h2>Manizales Grita Rock 2022</h2>
+        <p>
+          Dummy website only for educational purposes, based on the
+          <a
+            href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"
+            >template
+          </a>
+          by Cindy Shin
+        </p>
+      </div>
     </footer>
+    <script type="module" src="scripts.js"></script>
   </body>
 </html>
