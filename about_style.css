@@ -169,7 +169,7 @@
   }
 
   .festival-name {
-    font-size: 35px;
+    font-size: 50px;
     margin-top: 30px;
     margin-left: 20%;
     margin-right: 20%;
@@ -221,7 +221,17 @@
 }
 
 .logo-actual {
-  width: 70%;
+  width: 35%;
+}
+
+.logo-description {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic;
+  margin-top: -50px;
+  width: 80%;
+  color: #272a31;
 }
 
 /* Actual edition Desktop CSS */
@@ -238,6 +248,10 @@
     font-style: normal;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .logo-description {
+    font-size: 20px;
   }
 }
 
