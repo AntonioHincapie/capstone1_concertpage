@@ -164,6 +164,14 @@
     color: #ec5242;
   }
 
+  #headline {
+    height: 100vh;
+  }
+
+  #headline-text {
+    margin: 10%;
+  }
+
   .hello {
     display: none;
   }
@@ -412,17 +420,11 @@ footer {
   width: 100%;
   display: none;
   flex-direction: column;
-  background-image: url(about_images/about_headline_bg.png);
-  background-position: top center;
-  background-size: contain;
+  background-color: #272a31;
 }
 
 .exitbtn-container {
   display: flex;
-}
-
-.exit {
-  background-color: #d3d3d3;
 }
 
 #mobile-menu {
@@ -444,5 +446,5 @@ footer {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 200;
   font-size: 20px;
-  color: #000;
+  color: #d3d3d3;
 }

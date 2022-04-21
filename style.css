@@ -22,17 +22,11 @@
   width: 100%;
   display: none;
   flex-direction: column;
-  background-image: url(images/headline_bg.png);
-  background-position: top center;
-  background-size: contain;
+  background-color: #272a31;
 }
 
 .exitbtn-container {
   display: flex;
-}
-
-.exit {
-  background-color: #d3d3d3;
 }
 
 #mobile-menu {
@@ -54,7 +48,7 @@
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 200;
   font-size: 20px;
-  color: #000;
+  color: #d3d3d3;
 }
 
 /* Headline CSS */
@@ -119,6 +113,7 @@
 
 @media (min-width: 768px) {
   #headline {
+    height: 100vh;
     background-image: url(images/headline_bg2.png);
     background-position: top center;
     background-size: contain;
@@ -194,8 +189,7 @@
   }
 
   #headline-text {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 10%;
   }
 
   .hello {
