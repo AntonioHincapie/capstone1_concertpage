@@ -12,6 +12,10 @@ The construction of my first capstone porject for Microverse Curriculum.
 
 In this capstone project I'm going to build is based on an online website for a conference. Microvers provide some design guidelines for me to create the website, but I must personalize the content, i.e., instead of a conference I'm going to build a website for a concert or for a web development course. It's very important the you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.
 
+## Video description and deploy
+
+[My_capstone_project](https://www.loom.com/share/d58a12d387bf4922b6e324b8c01c7e6a)
+
 ## Live Demo
 
 [capstone1_concertpage](https://antoniohincapie.github.io/capstone1_concertpage/)
